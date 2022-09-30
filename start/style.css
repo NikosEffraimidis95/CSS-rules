@@ -6,11 +6,14 @@ body { background-color: var(--main-bg-color); }
 
 :root .ball {
     --main-bg-color: #ff8800;
+    --ball-width: 100px; 
+    --ball-height: 100px;
+    --ball-border-radius: 50px;
 }
  
 .ball {
-        width: 100px;
-        height: 100px;
+        width: var(--ball-width);
+        height: var(--ball-height);
         background-color: var(--main-bg-color);
-        border-radius: 50px;
+        border-radius: var(--ball-border-radius);
 }
